@@ -3,7 +3,7 @@ import datetime
 
 # Get today's date.
 import datetime
-today = datetime.datetime.now()+datetime.timedelta(hours+8)
+today = datetime.datetime.now()+datetime.timedelta(hours=8)
 month = today.month
 day = today.day
 year = today.year
